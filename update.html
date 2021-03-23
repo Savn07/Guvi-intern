@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <title>ProfilePage</title>
+    <link rel="icon" href="img/Aicon.ico">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>Profile Page</h2>
+        <h5>Welcome to our website!</h5>
+    </div>
+    <form method="post" id="updateform">
+        <h5 style="text-align: center;"> Update your additional details here!</h5>
+        <div id="error"></div>
+        <div class="input-group">
+            <label> Username</label>
+            <input type="text" name="username" required id="username">
+        </div>
+        <div class="input-group">
+            <label> Age</label>
+            <input type="number" name="age" required id="age">
+        </div>
+        <div class="input-group">
+            <label> Date of Birth</label>
+            <input type="date" name="dob" required id="dob">
+        </div>
+        <div class="input-group">
+            <label>Contact Number</label>
+            <input type="tel" name="contact" required id="contact">
+        </div>
+        <div class="input-group">
+            <button type="submit" id=button name="submit" class="btn">Save</button>
+        </div>
+    </form>
+    <script type="text/javascript" src="ajax.js"></script>
+</body>
+
+</html>
