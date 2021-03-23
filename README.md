@@ -5,17 +5,17 @@ This project is done in the regard of GUVI | Internship - Web Development
 https://www.guvi.in/current-openings
 
 # **How to use it**
-Download and extract the file.
+Step1: Download and extract the file.
 
-setup XAMPP server in your system.
+Step2: Setup XAMPP server in your system.
 
-Paste the extracted file in the htdocs folder [C:\xampp\htdocs]
+Step3: Paste the extracted file in the htdocs folder [C:\xampp\htdocs]
 
-Go to http://localhost/phpmyadmin and create a database registration and create a table users with the following attributes id[int], username[varchar], email[varchar], password[varchar], age[int], dob[varchar] and contact[varchar].
+Step4: Go to http://localhost/phpmyadmin and create a database registration and create a table users with the following attributes id[int], username[varchar], email[varchar], password[varchar], age[int], dob[varchar] and contact[varchar].
 
-You are all done!
+Step5: You are all done!
 
-Go to http://localhost/Guvi-intern/register.html
+Step6: Go to http://localhost/Guvi-intern/register.html
 
 **Problem Statement :**
 
